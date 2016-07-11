@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UsieBooth!</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6308098215730700/1999670279</string>
+    <string name="full_screen_ad_unit_id">ca-app-pub-6308098215730700/3476403476</string>
+    <string name="double_click_input_text">Your Text Here</string>
+    <string name="walkthrough_1_title"></string>
+    <string name="walkthrough_2_title">Youtube</string>
+    <string name="walkthrough_3_title">Twitter</string>
+    <string name="complete">OK</string>
+    <string name="publish_comment">Save</string>
+    <string name="over_text_limit">30</string>
+    <string name="walkthrough_1_details">Lets Get Started</string>
+    <string name="walkthrough_2_details"></string>
+    <string name="walkthrough_3_details">Done</string>
+    <string name="preference_file_key">prefKey</string>
+    <string name="layoutnumber">1</string>
+    <string name="lay">10</string>
+
+</resources>

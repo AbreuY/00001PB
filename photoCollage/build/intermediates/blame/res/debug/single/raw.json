@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/raw/splash_video.mp4",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/raw/splash_video.mp4"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.0.2/res/raw/gtm_analytics"
+    }
+]

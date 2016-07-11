@@ -1,0 +1,49 @@
+[
+    {
+        "outputFile": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/values-v19/values-v19.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 12,
+                    "endOffset": 311
+                },
+                "from": {
+                    "file": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/CollegeAppYSC/library/unspecified/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 316,
+                    "endLine": 10,
+                    "endColumn": 12,
+                    "endOffset": 563
+                },
+                "from": {
+                    "file": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.github.boxme/squarecamera/1.1.0/res/values-v19/values-v19.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 302
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/ivSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/save" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="STICKERS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/orange" />
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" >
+    </com.google.android.gms.ads.AdView>
+
+    <com.pixr.photo.collage.widget.SquareFrameLayout
+        android:id="@+id/squareFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/adView"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:id="@+id/ivFrame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ImageView>
+
+        <com.pixr.photo.collage.widget.PhotoSortrView
+            android:id="@+id/photoSorterStickerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.pixr.photo.collage.widget.SquareFrameLayout>
+
+    <com.meetme.android.horizontallistview.HorizontalListView
+        android:id="@+id/hlvCustomList"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:divider="@color/orange"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/ivRemoveSticker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/hlvCustomList"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="5dp"
+        android:drawableRight="@drawable/remove_sticker"
+        android:gravity="center_vertical"
+        android:text="Remove Sticker"
+        android:textColor="@color/orange" />
+
+</RelativeLayout>

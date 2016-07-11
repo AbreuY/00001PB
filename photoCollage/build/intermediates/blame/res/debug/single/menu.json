@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/CollegeAppYSC/library/unspecified/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/menu/squarecamera__menu_main.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.github.boxme/squarecamera/1.1.0/res/menu/squarecamera__menu_main.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/menu/squarecamera__menu_blank.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.github.boxme/squarecamera/1.1.0/res/menu/squarecamera__menu_blank.xml"
+    }
+]

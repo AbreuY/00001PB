@@ -1,0 +1,275 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars = "vertical"
+    android:scrollbarStyle="insideInset">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/headertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DESIGN" />
+
+        <TextView
+            android:id="@+id/headerDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Layout Properties"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ButtonLayout"
+            android:layout_toEndOf="@+id/ButtonLayout" />
+
+        <Button
+            android:id="@+id/ButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="layout"
+            android:layout_below="@+id/headerDescription"/>
+        <Button
+            android:id="@+id/ButtonBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="background"
+            android:layout_alignTop="@+id/ButtonLayout"
+            android:layout_toRightOf="@+id/ButtonLayout"
+            android:layout_toEndOf="@+id/ButtonLayout" />
+        <Button
+            android:id="@+id/ButtonFonts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fonts"
+            android:layout_below="@+id/headerDescription"
+            android:layout_toRightOf="@+id/ButtonBackground"
+            android:layout_toEndOf="@+id/ButtonBackground" />
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="layoutlist"
+            android:layout_below="@id/ButtonLayout"
+            android:layout_marginTop="10dp"/>
+        <com.meetme.android.horizontallistview.HorizontalListView
+            android:id="@+id/hlvCustomList"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:background="@android:color/white"
+            android:divider="@color/orange"
+            android:visibility="gone"
+            android:layout_below="@id/ButtonLayout"
+            android:layout_alignLeft="@+id/h1"/>
+        <!--<TextView-->
+            <!--android:id="@+id/h2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="layoutlist"-->
+            <!--android:layout_below="@id/h1"/>-->
+        <!--<com.meetme.android.horizontallistview.HorizontalListView-->
+            <!--android:id="@+id/hlvCustomList1"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:divider="@color/orange"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_below="@id/hlvCustomList"-->
+            <!--android:layout_alignLeft="@+id/h2"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/h3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="layoutlist"-->
+            <!--android:layout_below="@id/h2"/>-->
+        <!--<com.meetme.android.horizontallistview.HorizontalListView-->
+            <!--android:id="@+id/hlvCustomList2"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:background="@android:color/white"-->
+            <!--android:divider="@color/orange"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_below="@id/hlvCustomList1"-->
+            <!--android:layout_alignLeft="@+id/h3"/>-->
+
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Shape"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_above="@+id/redseekbar"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <SeekBar
+        android:id="@+id/shapeseekbar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:maxHeight="3dip"
+        android:minHeight="3dip"
+        android:progressDrawable="@drawable/red_progress"
+        android:thumb="@drawable/red_thumb_drawable"
+        android:layout_span="2"
+        android:layout_above="@+id/redseekbar"
+        android:layout_alignLeft="@+id/redseekbar"
+        android:layout_alignStart="@+id/redseekbar" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Red"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignBottom="@+id/redseekbar"
+         />
+
+    <SeekBar
+        android:id="@+id/redseekbar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:maxHeight="3dip"
+        android:minHeight="3dip"
+        android:progressDrawable="@drawable/red_progress"
+        android:thumb="@drawable/red_thumb_drawable"
+        android:layout_span="2"
+        android:layout_above="@+id/blueseekbar"
+        android:layout_alignLeft="@+id/blueseekbar"
+        android:layout_alignStart="@+id/blueseekbar" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Blue"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_above="@+id/greenseekbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:id="@+id/blueseekbar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:maxHeight="3dip"
+        android:minHeight="3dip"
+        android:progressDrawable="@drawable/blue_progress"
+        android:thumb="@drawable/blue_thumb_drawable"
+        android:layout_span="2"
+        android:layout_above="@+id/greenseekbar"
+        android:layout_alignLeft="@+id/greenseekbar"
+        android:layout_alignStart="@+id/greenseekbar" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Green"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignRight="@+id/headertext"
+        android:layout_alignEnd="@+id/headertext"
+        android:layout_below="@+id/frameLayout" />
+
+    <SeekBar
+        android:id="@+id/greenseekbar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:maxHeight="3dip"
+        android:minHeight="3dip"
+        android:progressDrawable="@drawable/green_progress"
+        android:thumb="@drawable/green_thumb_drawable"
+        android:layout_span="2"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toRightOf="@+id/textforbubble"
+        android:layout_toEndOf="@+id/textforbubble" />
+
+    <TextView
+        android:id="@+id/textforbubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Text"
+        android:layout_alignBottom="@+id/textbubble"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/textbubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Your Text Here"
+        android:maxLength="10"
+        android:layout_alignTop="@+id/frameLayout2"
+        android:layout_toRightOf="@+id/ButtonLayout"
+        android:layout_toEndOf="@+id/ButtonLayout" />
+
+
+    <Button
+        android:id="@+id/savedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|bottom"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_alignRight="@+id/textforbubble"
+        android:layout_alignEnd="@+id/textforbubble" />
+
+
+
+
+        <FrameLayout
+            android:id="@+id/bg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/orange"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="32dp"
+            android:layout_marginEnd="32dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/orange"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/bg"
+            android:layout_alignStart="@+id/bg" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/orange"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/frameLayout"
+            android:layout_alignStart="@+id/frameLayout" />
+
+</RelativeLayout>
+
+
+
+</ScrollView>

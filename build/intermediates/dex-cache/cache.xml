@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Rathore/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_0c941d2c5609197fbdd3ad9b66ec5546f3e19590/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.2_e2c2f962409b51aa25b11d1c94a4b86e6b1e7daa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f4fb6981392ca7680d02fd57d26d6124c141d9d9">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.0.2_ee8b5af4b08806e56ee7b89189e9313c9b932cee/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b8e0372ca6dc89ac4fe22b76eeea4f68ece435b8">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.0.2_f72bb5da6bcf24151bd94067c8d3c7950906b1be/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6c58c14d15602fea2c50138c73bb107e8b832b62">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.0.2_f5ffea65f2aa5602ff51a47504ff6bea2d82408a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="604ecf403feb0084dc6d0c12f1677a490cf45e4c">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.0.2_1b089820bf24bbf09c2c42dd94c9d2de7ad2898a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_eebdeba6bccc9a01b14cd578b695ff31d1b170a4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="922c24fbfc4247947fcfaf2b95f295a16a8c3d17">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.0.2_240a3059f0df17dee16c40b27062722cd6ffce98/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a45bc1ed812137b21dddd1cedaa3712b308f0b3f">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.0.2_fca48899e5b32db0e4e84f092f16d18245d10202/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/libs/universal-image-loader-1.9.3-with-sources.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="03e3948d42b8d78961a092a184af66bd86da42e6">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.3-with-sources_2ed78e7af47d87c775b4a519e91eb5f68a157dac/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="416d1b576d21c15a8432a26d7732071d205ef186">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_02779d4848d837372eb28af54e4d862aef17b38c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="cd4c7c54e15d9ccbc448384fa2c4684d69ca73f0">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.0.2_4f0ac3fbd45fe85385eb7d85cc5d1f8afefe833b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_fba2b45c28af06a37601e5fa6f2e63311ccc07e4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0c835e9f3875cf245877c9b17d1c69bc98f16057">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.0.2_7ff363a89965cdd64a67affd2029211cda1365cf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_eaa5c4c16f5ddfb6dde473ce0557c5cf50d00bb8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6ff48ef26bc539c78af4aa061cb9bad6abcbf5e8">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.0.2_9fb848f209922dbe5bd4b09015da2bc7b0c929a5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e11da70cff6a544a45cdc21f419802d9bb9043ac">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.0.2_aaa09c931eceac2527e2b8b3fc3fe4e959565922/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a498fab72f8663c26fbf3d4496eb6b673b17bcae">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.0.2_82307cc0e8ee5decb7f40c93ae76067a5b63b043/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="fe5b47e764869f1076cb9cfe12801ed2ef4e9117">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.0.2_fa12ec1c9057a5083179a819227e9c2a6f4edcd4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="92a1d5f71b0fc8938f1d3f2e6ef984b52b894b4d">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.0.2_8b01dcc12d718d6f49304d21be31142007ad0a92/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="bc156efaaee99f1ef6bf471347373a4cbb28e2a1">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.0.2_aec955d1bfa024372bf8e61aece63fb88a5d9864/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_bdf5be87ebce51518082ccade996882eb1109ae2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-6.1.0_d4b7cfb96eafd6611aa4de4d7f0377484863b4f8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.0.2_8e43631a0a5fc01ae8a7cd978098f42d80c1ddb7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="20e1a0f0de6276a5f36062b655f8b20f8cc00cc4">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.0.2_ce92c965a092fb17bb2ec2b1571b55810cd25f55/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_148b3e7a7ac2cccb3d80a49a06c69c069273b89f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="829c6e46cb221c2102801221c648b77113743e81">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.0.2_fd01c66188218d9fe09aa8d7bf301c30804b69af/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="060a7157438a0b1b0706b99c430fb3ecbc5a79a4">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.0.2_bea93eb0ce7831daf226fcc0f5439ff9253411a4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d21a4028d1397d3d3d95f69bb2b41786b9afe4a4">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e74e75b56fcebf438a08ff46c8e99f441de4982f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.1_33b1fbb5bcd5c920b9bb3bc02329e2ecc72ee36d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c96952c162c9f6076f44c5939982cb35491442ea">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.0.2_6ea040088d0acbdf68f462d0ab764807ea175a9b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="143813b18381b28de1e04aae1d92fcb374a0add9">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.0.2_b17e7321ff272b62c869e466ad5d1897d80c4f05/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.0.2_250987153b058bde6e6adfd66171217c8261f5c0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.0.2_a0db60cd29ebe923c3a4b8f78d7b93291e8a2994/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.0.2_414f37d71f98fa0cabee9aeccbfe82a64f6449f7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d9ea4cdaafa29ec4651d6e4715788d3fcaa7b913">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.0.2_2abeb852cfe36e051e9823418f74ba098bd0c3c2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="764d32faf85bc6f7bd2cdcb3a70a482c1884fdd2">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.0.2_21320f6aca2c0660c51a43908178cd5eca53d104/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="7e52b440a26498c56b4f263e215223b5451c955e">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.0.2_def6e30af9a4d8cd8a3a4445c1424dc7f85571c9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8c0fc9b1ea0bac0cb31d60c8b1bf2feb0518e3a9">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.0.2_05e31673c0ae8bf247d8c07fef6bb983813a6d24/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_05b63f1f6cb655c2b22690dddfbb2a64390b8a69/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="cf16220db9128d91a215aedc739584181d5ca6a4">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.0.2_3feb15b45e84208b1129b4196d73fae0cc0a9879/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2ab5be19bbd34bae74662ea6b2d4451314d92d97">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.0.2_7227b4621377da8d00fdc553fec589243ebb2296/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.2_bba11c1de3ea30471ba4c69a02483531a6457fd4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.0.1_2aa6ecb1dddc535e77fbb8ed1455d3dc5474be17/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_3412d2333de3e4552f38397d680115d9174890ce/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.0.2_1dff718cffd0df6654be20b801a032b9b62f95f0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.0.2_9b0bf32894dddd9be77d91fe782e885b56ff4cef/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.0.2_8d97706465c69e3a05aa0808f9a0188c81cb90ff/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.0.2_62182577a5b240214c9e6d6546d40b1810c1bf9d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b6af089f583d547bcffc0689b2e80bc7aaa54b15">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.0.2_a1e68588dcde075bcbef3a538eaacabbdbd1d282/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d900f2a1ff098cac8befe6c023d723e9afb154be">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.0.2_a3347fc5940e6e0dc9e2269cb2d54b303f7698ea/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.0.2_2c3d8d701c88eff23ae8e33ca2f002160be0df66/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.1/ef266d93357210b530c5b400e3d40de64fd86a0d/parse-android-1.13.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ef266d93357210b530c5b400e3d40de64fd86a0d">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.1_bfa4df5ef2107045380fa0b0fd9d728f4ad36835/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.2_cdbecc78f4c082553c4ab8138ebf80cd6a3891d8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.0.2_0e2edf69442aa2e2fbc3b0fd6333830bfcd29cab/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f399a2fde7888450cadcaec4974bfd169d8cce43">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.0.2_c99267c4fb4fdfeb8562a4211f81e93bd156c83c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.2_733c40edf24b2df5cf56b0bed35182ed10adebe3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="53f10fcd322a3931495d6ca2078a81f4957cdbce">
+        <dex dex="/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.0.2_84502e3d33d47f8dfa51becc25877bfeb21ba272/classes.dex" />
+    </item>
+
+</items>

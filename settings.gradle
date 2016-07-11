@@ -1,0 +1,4 @@
+include ':androidHorizontalListView', ':library'
+include ':squarecamera'
+include ':photoCollage'
+project(':library').projectDir = new File('Walkthrough-master/library')

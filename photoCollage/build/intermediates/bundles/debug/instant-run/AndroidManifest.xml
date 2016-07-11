@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pixr.photo.collage"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+    <!-- <permission -->
+    <!-- android:name="com.pixr.photo.collage.permission.CAMERA" -->
+    <!-- android:protectionLevel="signature" /> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera2" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Google billing permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <!-- OPTIONAL PERMISSION, used to enhance the wheel experience -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- <uses-permission android:name="android.permission.VIBRATE" /> -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.pixr.photo.collage.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.pixr.photo.collage.permission.C2D_MESSAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        name="com.pixr.photo.collage.CollegeApplication"
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/Theme.AppCompat.Light" >
+
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.pixr.photo.collage.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.grid.GridActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.CollegeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.AddStickerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.Sliders"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.SlidersLayout"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.SlidersDone"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.AdminActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- <activity -->
+        <!-- android:name=".HelpActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@android:style/Theme.Translucent" /> -->
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change "com.pixr.photo.collage" to match your app's package name. -->
+                <category android:name="com.pixr.photo.collage" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.pixr.photo.collage.AdminActivity" />
+            </intent-filter>
+        </receiver>
+
+        <!-- <service android:name="com.pixr.photo.collage.MyService" /> -->
+
+
+        <!-- <receiver -->
+        <!-- android:name="com.pixr.photo.collage.MyBroadcastReceiver" -->
+        <!-- android:exported="false" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.pixr.photo.collage.UPDATE_STATUS" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <receiver -->
+        <!-- android:name="com.pixr.photo.collage.MyBroadcastPlusOne" -->
+        <!-- android:exported="false" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.pixr.photo.collage.UPDATE_PLUS_ONE" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <receiver -->
+        <!-- android:name="com.pixr.photo.collage.MyBroadcastFiveStar" -->
+        <!-- android:exported="false" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.pixr.photo.collage.UPDATE_FIVE_STAR" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <receiver -->
+        <!-- android:name="com.pixr.photo.collage.MyBroadcastGFollow" -->
+        <!-- android:exported="false" > -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.pixr.photo.collage.UPDATE_G_FOLLOW" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <receiver -->
+        <!-- android:name="com.pixr.photo.collage.MyBroadcastFBLike" -->
+        <!-- android:exported="false" > -->
+        <!-- &lt;!&ndash;<intent-filter>&ndash;&gt; -->
+        <!-- &lt;!&ndash;</intent-filter>&ndash;&gt; -->
+        <!-- </receiver> -->
+        <activity
+            android:name="com.desmond.squarecamera.CameraActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/squarecamera__CameraFullScreenTheme.NoUI" />
+        <activity
+            android:name="com.desmond.squarecamera.RuntimePermissionActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/squarecamera__CameraFullScreenTheme.NoUI" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.pixr.photo.collage.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.pixr.photo.collage" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService"
+            android:process=":background_crash" />
+        <service
+            android:name="com.google.firebase.crash.internal.service.FirebaseCrashSenderService"
+            android:process=":background_crash" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.gms.tagmanager.TagManagerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.pixr.photo.collage" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.abanoub.walkthrough.WalkthroughActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

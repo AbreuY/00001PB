@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.desmond.squarecamera"
+    android:versionCode="5"
+    android:versionName="1.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <application>
+        <activity
+            android:name="com.desmond.squarecamera.RuntimePermissionActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/squarecamera__CameraFullScreenTheme.NoUI" >
+        </activity>
+        <activity
+            android:name="com.desmond.squarecamera.CameraActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/squarecamera__CameraFullScreenTheme.NoUI" >
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

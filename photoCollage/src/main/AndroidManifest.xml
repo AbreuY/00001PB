@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.pixr.photo.collage"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+    <!--<permission-->
+        <!--android:name="com.pixr.photo.collage.permission.CAMERA"-->
+        <!--android:protectionLevel="signature" />-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Google billing permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <!-- OPTIONAL PERMISSION, used to enhance the wheel experience -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--<uses-permission android:name="android.permission.VIBRATE" />-->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.pixr.photo.collage.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.pixr.photo.collage.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".CollegeApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:largeHeap="true"
+        tools:replace="android:theme">
+
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.grid.GridActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.CollegeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|adjustResize">
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.AddStickerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.Sliders"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.SlidersLayout"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.SlidersDone"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.pixr.photo.collage.AdminActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <!--<activity-->
+            <!--android:name=".HelpActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@android:style/Theme.Translucent" />-->
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change "com.pixr.photo.collage" to match your app's package name. -->
+                <category android:name="com.pixr.photo.collage" />
+            </intent-filter>
+            <intent-filter>
+
+                <action android:name="com.pixr.photo.collage.AdminActivity"></action>
+            </intent-filter>
+        </receiver>
+
+        <!--<service android:name="com.pixr.photo.collage.MyService" />-->
+
+        <!--<receiver-->
+            <!--android:name="com.pixr.photo.collage.MyBroadcastReceiver"-->
+            <!--android:exported="false" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.pixr.photo.collage.UPDATE_STATUS" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<receiver-->
+            <!--android:name="com.pixr.photo.collage.MyBroadcastPlusOne"-->
+            <!--android:exported="false" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.pixr.photo.collage.UPDATE_PLUS_ONE" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<receiver-->
+            <!--android:name="com.pixr.photo.collage.MyBroadcastFiveStar"-->
+            <!--android:exported="false" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.pixr.photo.collage.UPDATE_FIVE_STAR" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<receiver-->
+            <!--android:name="com.pixr.photo.collage.MyBroadcastGFollow"-->
+            <!--android:exported="false" >-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.pixr.photo.collage.UPDATE_G_FOLLOW" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<receiver-->
+            <!--android:name="com.pixr.photo.collage.MyBroadcastFBLike"-->
+            <!--android:exported="false" >-->
+            <!--&lt;!&ndash;<intent-filter>&ndash;&gt;-->
+            <!--&lt;!&ndash;</intent-filter>&ndash;&gt;-->
+        <!--</receiver>-->
+        <activity android:name="com.desmond.squarecamera.CameraActivity" />
+    </application>
+
+</manifest>

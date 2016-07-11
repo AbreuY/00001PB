@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="greenTextStyle" parent="android:Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:drawablePadding">3dp</item>
+    </style>
+
+    <!-- inherit from the material theme -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+
+        <!-- Main theme colors -->
+        <!-- your app branding color for the app bar -->
+        <item name="android:colorPrimary">@color/orange</item>
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/orange</item>
+        <!-- theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">@color/orange</item>
+    </style>
+
+</resources>

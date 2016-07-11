@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlScreenShot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btnThree"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btnFour"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="4" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_centerInParent="true"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <include
+                android:id="@+id/relOne_ref"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                layout="@layout/college_layout" />
+
+            <RelativeLayout
+                android:id="@+id/relTwo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1" >
+
+                <com.pixr.photo.collage.widget.PhotoSortrView
+                    android:id="@+id/photoSortrViewTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relThree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1" >
+
+                <com.pixr.photo.collage.widget.PhotoSortrView
+                    android:id="@+id/photoSortrViewThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <RelativeLayout
+                android:id="@+id/relFour"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1" >
+
+                <com.pixr.photo.collage.widget.PhotoSortrView
+                    android:id="@+id/photoSortrViewFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relFive"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1" >
+
+                <com.pixr.photo.collage.widget.PhotoSortrView
+                    android:id="@+id/photoSortrViewFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relSix"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1" >
+
+                <com.pixr.photo.collage.widget.PhotoSortrView
+                    android:id="@+id/photoSortrViewSix"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

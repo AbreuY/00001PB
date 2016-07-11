@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CollegeAppYSC.iml" filepath="$PROJECT_DIR$/CollegeAppYSC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidHorizontalListView/androidHorizontalListView.iml" filepath="$PROJECT_DIR$/androidHorizontalListView/androidHorizontalListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Walkthrough-master/library/library.iml" filepath="$PROJECT_DIR$/Walkthrough-master/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoCollage/photoCollage.iml" filepath="$PROJECT_DIR$/photoCollage/photoCollage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/squarecamera/squarecamera.iml" filepath="$PROJECT_DIR$/squarecamera/squarecamera.iml" />
+    </modules>
+  </component>
+</project>

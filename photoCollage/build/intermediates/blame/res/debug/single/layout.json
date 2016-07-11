@@ -1,0 +1,634 @@
+[
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/six.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/six.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_item_four.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_item_four.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/res/layout/place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty_seven.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty_seven.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty_four.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty_four.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thrteen.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thrteen.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/squarecamera__activity_camera.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.github.boxme/squarecamera/1.1.0/res/layout/squarecamera__activity_camera.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/squarecamera__fragment_camera.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.github.boxme/squarecamera/1.1.0/res/layout/squarecamera__fragment_camera.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/slider.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/slider.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sticker_view.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sticker_view.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty_eight.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty_eight.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty_five.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty_five.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty_six.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty_six.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/twenty_nine.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/twenty_nine.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty_one.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty_one.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty_five.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty_five.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty_seven.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty_seven.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/eleven.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/eleven.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/twenty_six.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/twenty_six.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixteen.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixteen.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/five.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/five.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty_eight.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty_eight.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty_eight.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty_eight.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/tweenty_three.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/tweenty_three.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/chooser.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/chooser.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty_nine.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty_nine.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/mr_media_route_list_item.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/walkthrough_item.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/CollegeAppYSC/library/unspecified/res/layout/walkthrough_item.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty_two.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty_two.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/nineteen.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/nineteen.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty_seven.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty_seven.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/choose_collage_layout.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/choose_collage_layout.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty_five.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty_five.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/nine.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/nine.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty_nine.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty_nine.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_main.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_main.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/eighteen.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/eighteen.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty_three.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty_three.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/tweenty_one.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/tweenty_one.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/adminview.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/adminview.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty_three.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty_three.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_grid_view.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_grid_view.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_item_eight.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_item_eight.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/view_input_dialog.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/view_input_dialog.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_item_two.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_item_two.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/seventy.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/seventy.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty_three.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty_three.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty_one.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty_one.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty_nine.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty_nine.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/twenty_five.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/twenty_five.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/squarecamera__fragment_edit_save_photo.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.github.boxme/squarecamera/1.1.0/res/layout/squarecamera__fragment_edit_save_photo.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/res/layout/place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty_six.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty_six.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/two.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/two.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty_two.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty_two.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/three.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/three.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/twenty_seven.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/twenty_seven.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty_one.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty_one.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/mr_media_route_controller_material_dialog_b.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/tweenty_four.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/tweenty_four.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/res/layout/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/tweenty_two.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/tweenty_two.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_item_six.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_item_six.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_item_nine.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_item_nine.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty_six.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty_six.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/ten.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/ten.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/one.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/one.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/thirty_four.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/thirty_four.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_item_five.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_item_five.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/frame_item.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/frame_item.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/mr_media_route_chooser_dialog.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/layout/mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/save_share.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/save_share.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.0.2/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty_seven.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty_seven.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty_nine.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty_nine.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/splash.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty_eight.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty_eight.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/save_share_add_picture.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/save_share_add_picture.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/eight.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/eight.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/twenty_three.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/twenty_three.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty_four.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty_four.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/seven.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/seven.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty_five.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty_five.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/adminview1.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/adminview1.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/activity_walkthrough.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/CollegeAppYSC/library/unspecified/res/layout/activity_walkthrough.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/twenty.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/twenty.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_layout.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_layout.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/horizontal_data_view.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/horizontal_data_view.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/twenty_eight.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/twenty_eight.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty_three.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty_three.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_item_three.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_item_three.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourty_two.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourty_two.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/tweenty.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/tweenty.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_item_seven.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_item_seven.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fourteen.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fourteen.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty_one.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty_one.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/twenty_four.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/twenty_four.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifty.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifty.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty_four.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty_four.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/gridview_item.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/gridview_item.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/circle_main.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/circle_main.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/college_item_one.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/college_item_one.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/four.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/four.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/seventeen.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/seventeen.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty_six.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty_six.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/sixty_two.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/sixty_two.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/twelve.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/twelve.xml"
+    },
+    {
+        "merged": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/build/intermediates/res/merged/debug/layout/fifteen.xml",
+        "source": "/Users/Rathore/Desktop/CollegeAppYSC/photoCollage/src/main/res/layout/fifteen.xml"
+    }
+]

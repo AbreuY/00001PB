@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/design"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="DESIGN"
+           android:textSize="25dp"/>
+       <TextView
+           android:id="@+id/choose_layout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Choose Your Layout"
+           android:textSize="15dp"
+           android:layout_below="@+id/design"
+           android:layout_marginTop="40dp"/>
+
+       <TableLayout
+           android:id="@+id/tablelayout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="60dp"
+           android:layout_below="@+id/choose_layout">
+           <TableRow
+               android:id="@+id/tableRow0"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="5dip" >
+
+               <TextView
+                   android:id="@+id/textView0"
+                   android:text="Chooser"
+                   android:textAppearance="?android:attr/textAppearanceLarge" />
+               <Button
+                   android:id="@+id/b1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="layout"/>
+               <Button
+                   android:id="@+id/b2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="background"/>
+               <Button
+                   android:id="@+id/b3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Fonts"/>
+
+           </TableRow>
+       </TableLayout>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp">
+
+           <com.meetme.android.horizontallistview.HorizontalListView
+               android:id="@+id/hlvCustomList"
+               android:layout_width="wrap_content"
+               android:layout_height="70dp"
+               android:background="@android:color/white"
+               android:divider="@color/orange"
+               android:visibility="gone"
+
+               android:layout_marginTop="100dp"/>
+       </RelativeLayout>
+
+
+
+       <TableLayout
+           android:layout_width="425dp"
+           android:layout_height="447dp"
+           android:layout_gravity="left|bottom"
+           android:layout_marginLeft="30dp"
+           android:layout_marginBottom="30dp">
+
+
+           <TableRow
+               android:id="@+id/tableRow1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="5dip" >
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:text="Shape"
+                   android:textAppearance="?android:attr/textAppearanceLarge" />
+
+               <SeekBar
+                   android:id="@+id/shapeseekbar"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:max="100"
+                   android:maxHeight="3dip"
+                   android:minHeight="3dip"
+                   android:progressDrawable="@drawable/red_progress"
+                   android:thumb="@drawable/red_thumb_drawable"
+                   android:layout_span="2" />
+           </TableRow>
+
+           <TableRow
+               android:id="@+id/tableRow2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="5dip" >
+
+               <TextView
+                   android:id="@+id/textview2"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="Background" />
+
+               <com.meetme.android.horizontallistview.HorizontalListView
+                   android:id="@+id/hlvCustomList1"
+                   android:layout_width="50dp"
+                   android:layout_height="70dp"
+                   android:background="@android:color/white"
+                   android:divider="@color/orange"
+                   android:visibility="gone"/>
+           </TableRow>
+
+
+           <!-- 3 columns -->
+           <TableRow
+               android:id="@+id/tableRow3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="5dip" >
+
+
+               <TextView
+                   android:id="@+id/textview33"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="Color" />
+           </TableRow>
+           <TableRow>
+               <TextView
+                   android:id="@+id/redToolTip"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:fontFamily="sans-serif-medium"
+                   android:singleLine="true"
+                   android:textColor="@color/red"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:text="Red"/>
+
+               <SeekBar
+                   android:id="@+id/redSeekBar"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/redToolTip"
+                   android:max="255"
+                   android:maxHeight="3dip"
+                   android:minHeight="3dip"
+                   android:progressDrawable="@drawable/red_progress"
+                   android:thumb="@drawable/red_thumb_drawable"
+                   android:layout_span="2" />
+           </TableRow>
+
+           <TableRow>
+
+               <TextView
+                   android:id="@+id/greenToolTip"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/redSeekBar"
+                   android:fontFamily="sans-serif-medium"
+                   android:singleLine="true"
+                   android:textColor="@color/green"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:text="Green"/>
+
+               <SeekBar
+                   android:id="@+id/greenSeekBar"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/greenToolTip"
+                   android:max="255"
+                   android:maxHeight="3dip"
+                   android:minHeight="3dip"
+                   android:progressDrawable="@drawable/green_progress"
+                   android:thumb="@drawable/green_thumb_drawable"
+                   android:layout_span="2" />
+           </TableRow>
+
+           <TableRow>
+
+               <TextView
+                   android:id="@+id/blueToolTip"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/greenSeekBar"
+                   android:fontFamily="sans-serif-medium"
+                   android:singleLine="true"
+                   android:textColor="@color/blue"
+                   android:textSize="18sp"
+                   android:textStyle="bold"
+                   android:text="Blue"/>
+
+               <SeekBar
+                   android:id="@+id/blueSeekBar"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/blueToolTip"
+                   android:max="255"
+                   android:maxHeight="3dip"
+                   android:minHeight="3dip"
+                   android:progressDrawable="@drawable/blue_progress"
+                   android:thumb="@drawable/blue_thumb_drawable"
+                   android:layout_span="2" />
+           </TableRow>
+
+
+
+           <!-- display this button in 3rd column via layout_column(zero based) -->
+           <TableRow
+               android:id="@+id/tableRow4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="5dip" >
+
+               <TextView
+                   android:id="@+id/textview34"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="Input Text" />
+
+               <EditText
+                   android:id="@+id/textid"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:hint="Your Text Here"
+                   android:maxLength="10"
+                   />
+           </TableRow>
+
+           <!-- display this button in 2nd column via layout_column(zero based) -->
+           <TableRow
+               android:id="@+id/tableRow5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:padding="5dip" >
+
+               <TextView
+                   android:id="@+id/textview3"
+                   android:textAppearance="?android:attr/textAppearanceLarge"
+                   android:text="Font" />
+
+               <com.meetme.android.horizontallistview.HorizontalListView
+                   android:id="@+id/hlvCustomList2"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:background="@android:color/white"
+                   android:divider="@color/orange"
+                   android:visibility="gone"
+                   />
+
+           </TableRow>
+
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <Button
+                   android:id="@+id/savedata"
+                   android:text="SAVE"
+                   android:layout_column="1"
+                   android:layout_gravity="center_horizontal|bottom" />
+           </TableRow>
+
+
+       </TableLayout>
+
+
+       <FrameLayout
+           android:id="@+id/bgback"
+           android:layout_width="334dp"
+           android:layout_height="188dp"
+           android:layout_alignParentTop="true"
+           android:layout_gravity="right|center_vertical">
+
+       </FrameLayout>
+       <FrameLayout
+           android:id="@+id/bgback1"
+           android:layout_width="334dp"
+           android:layout_height="188dp"
+           android:layout_alignParentTop="true"
+           android:layout_gravity="center_horizontal|bottom"
+           android:layout_column="1">
+
+       </FrameLayout>
+       <FrameLayout
+           android:id="@+id/bgback3"
+           android:layout_width="334dp"
+           android:layout_height="190dp"
+           android:layout_alignParentTop="true"
+           android:layout_gravity="right|bottom">
+
+       </FrameLayout>
+
+   </RelativeLayout>
+
+
+</ScrollView>

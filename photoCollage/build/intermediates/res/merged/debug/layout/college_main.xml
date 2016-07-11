@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/ivSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/save" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Select a Layout"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/orange" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:id="@+id/linearLayout">
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvGrid"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableTop="@drawable/grid_bg_color"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="Grid"-->
+            <!--android:textColor="@drawable/grid_text_color" />-->
+
+        <TextView
+            android:id="@+id/tvShape"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/shape_bg_color"
+            android:gravity="center_horizontal"
+            android:text="Shape"
+            android:textColor="@drawable/grid_text_color" />
+
+        <TextView
+            android:id="@+id/tvBG"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/bkground_bg_color"
+            android:gravity="center_horizontal"
+            android:text="BG"
+            android:textColor="@drawable/grid_text_color" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvFrame"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="1"-->
+            <!--android:drawableTop="@drawable/frame_bg_color"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="Frame"-->
+            <!--android:textColor="@drawable/grid_text_color" />-->
+
+        <TextView
+            android:id="@+id/tvColorPicker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/colors_bg_color"
+            android:gravity="center_horizontal"
+            android:text="Colors"
+            android:textColor="@drawable/grid_text_color" />
+
+        <TextView
+        android:id="@+id/tvText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/frame_bg_color"
+        android:gravity="center_horizontal"
+        android:text="Text"
+        android:textColor="@drawable/grid_text_color" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlSliderShapeView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/ivSeek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shape1" />
+
+            <SeekBar
+                android:id="@+id/seekBarForShape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/ivDensity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shape2" />
+
+            <SeekBar
+                android:id="@+id/seekBarForDensity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.pixr.photo.collage.widget.SquareFrameLayout
+        android:id="@+id/squareFrameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_below="@+id/title"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ViewStub
+            android:id="@+id/changeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/college_item_one" />
+
+        <com.pixr.photo.collage.widget.PhotoSortrView
+            android:id="@+id/photoSorterStickerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </com.pixr.photo.collage.widget.SquareFrameLayout>
+
+    <com.meetme.android.horizontallistview.HorizontalListView
+        android:id="@+id/hlvCustomList"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:divider="@color/orange"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rlColorPicker"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/redToolTip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:singleLine="true"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/redSeekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/redToolTip"
+            android:max="255"
+            android:maxHeight="3dip"
+            android:minHeight="3dip"
+            android:progressDrawable="@drawable/red_progress"
+            android:thumb="@drawable/red_thumb_drawable" />
+
+        <TextView
+            android:id="@+id/greenToolTip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/redSeekBar"
+            android:fontFamily="sans-serif-medium"
+            android:singleLine="true"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/greenSeekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/greenToolTip"
+            android:max="255"
+            android:maxHeight="3dip"
+            android:minHeight="3dip"
+            android:progressDrawable="@drawable/green_progress"
+            android:thumb="@drawable/green_thumb_drawable" />
+
+        <TextView
+            android:id="@+id/blueToolTip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/greenSeekBar"
+            android:fontFamily="sans-serif-medium"
+            android:singleLine="true"
+            android:textColor="@color/blue"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/blueSeekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blueToolTip"
+            android:max="255"
+            android:maxHeight="3dip"
+            android:minHeight="3dip"
+            android:progressDrawable="@drawable/blue_progress"
+            android:thumb="@drawable/blue_thumb_drawable" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_content_root"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:id="@+id/ivFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false">
+    </ImageView>
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/ivTextValue"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above="@+id/linearLayout">-->
+
+
+
+        <!--<EditText-->
+            <!--android:id="@+id/TextFortv"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="0dp"-->
+            <!--android:cursorVisible="false"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:text="Place your Text Here"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--/>-->
+
+
+
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>
